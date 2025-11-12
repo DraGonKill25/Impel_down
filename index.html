@@ -5,16 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Décompte avant la fin des cours</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="ico.ico" type="image/x-icon">
 </head>
 <body>
+
+    <img id="floating-gif" src="js.gif" alt="floating">
+
     <div id="countdown">
         <h1>Décompte avant la fin des cours</h1>
         <div id="time">
-            <span id="days"></span> jours 
-            <span id="hours"></span> heures 
-            <span id="minutes"></span> minutes 
-            <span id="seconds"></span> secondes 
-            <span id="milliseconds"></span> millisecondes
+            <div class="time-unit">
+                <span class="number" id="days">0</span>
+                <span class="label">jours</span>
+            </div>
+            <div class="time-unit">
+                <span class="number" id="hours">0</span>
+                <span class="label">heures</span>
+            </div>
+            <div class="time-unit">
+                <span class="number" id="minutes">0</span>
+                <span class="label">minutes</span>
+            </div>
+            <div class="time-unit">
+                <span class="number" id="seconds">0</span>
+                <span class="label">secondes</span>
+            </div>
+            <div class="time-unit">
+                <span class="number" id="milliseconds">0</span>
+                <span class="label">millisecondes</span>
+            </div>
         </div>
     </div>
 
